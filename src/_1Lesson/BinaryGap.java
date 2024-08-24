@@ -9,6 +9,7 @@ public class BinaryGap {
         int binaryGap =0;
 
         String binary = Integer.toBinaryString(N);
+        char[] list = binary.toCharArray();
 
 
         return binaryGap;
